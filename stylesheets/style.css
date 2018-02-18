@@ -46,7 +46,7 @@ div {
 nav {
   margin-left: 140px;
   position: relative;
-  top: 27px;
+  top: 12px;
 }
 
 nav a {
@@ -143,7 +143,8 @@ div#search-box {
   background: #fff;
   border: 1px solid #dadada;
   box-shadow: 3px 3px 5px -5px #444;
-  position: absolute;
+  position: relative;
+  bottom: 15px;
 }
 
 div#search-box:hover {

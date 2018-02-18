@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -21,6 +21,7 @@ header {
   grid-area: header;
   background: #fafafa;
   border-bottom: 1px solid #e4e4e4;
+  height: 125px;
 }
 
 main {
@@ -45,7 +46,7 @@ div {
 nav {
   margin-left: 140px;
   position: relative;
-  top: 25px;
+  top: 27px;
 }
 
 nav a {
@@ -112,7 +113,7 @@ a#apps:hover {
 button#login-button {
   border-radius: 0;
   border: 1px solid #4285f4;
-  background: -moz-linear-gradient(top,#4387fd,#4683ea);
+  background: #4387fd;
   font-family: arial,sans-serif;
   font-weight: 700;
   font-size: small;
@@ -128,7 +129,7 @@ button#login-button:hover {
 }
 
 button#login-button:active {
-  background: -moz-linear-gradient(top,#3c7ae4,#3f76d3);
+  background: #3c7ae4;
   box-shadow: inset 0 2px 0 rgba(0,0,0,.15);
 }
 
@@ -150,5 +151,8 @@ div#search-box:hover {
 }
 
 img#mag-glass {
-  padding-right: 18px;
+  display: inline;
+  position: absolute;
+  top: 15px;
+  right: 20px;
 }

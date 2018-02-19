@@ -9,7 +9,7 @@ body {
   color: #222;
   font-size: small;
   display: grid;
-  grid-template-rows: 125px 2100px 90px;
+  grid-template-rows: 125px 2025px 90px;
   grid-template-areas: 'header'
                        'main'
                        'footer';
@@ -257,9 +257,46 @@ div#featured-result p {
   text-decoration: underline;
 }
 
+.g-character {
+  width: 28px;
+  height: 28px;
+}
+
+.google-character {
+  width: 20px;
+  height: 20px;
+}
+
+.gle {
+  width: 50px;
+  height: 40px;
+}
+
+.index-link {
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+  position: relative;
+  top: 17px;
+  text-decoration: none;
+  color: #4285f4;
+}
+
+.index-link:hover {
+  text-decoration: underline;
+}
+
+#first-o {
+  color: black;
+}
+
+#first-o:hover {
+  text-decoration: none;
+}
+
 #pages-index {
   height: 100px;
-  border: 1px solid red;
+  margin-left: 170px;
 }
 
 #thumbnail {

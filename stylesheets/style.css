@@ -43,6 +43,21 @@ span {
   font-size: 13px;
 }
 
+footer span {
+  font-size: 15px;
+  padding-top: 8px;
+  margin-top: 6px;
+}
+
+footer a {
+  color: #777;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #333;
+}
+
 form {
   display: inline-block;
 }
@@ -243,7 +258,9 @@ div#featured-result p {
 }
 
 .related-link {
-  display: block;
+  float: left;
+  clear: left;
+  display: inline;
   color: #1a0dab;
   font-size: 14px;
   line-height: 20px;
@@ -295,6 +312,8 @@ div#featured-result p {
 }
 
 #pages-index {
+  display: block;
+  clear: left;
   height: 100px;
   margin-left: 170px;
 }
@@ -302,4 +321,30 @@ div#featured-result p {
 #thumbnail {
   float: right;
   cursor: pointer;
+}
+
+#country {
+  margin-left: 150px;
+  display: inline-block;
+  height: 35px;
+  padding-right: 22px;
+  border-right: 1px solid #ddd;
+}
+
+#ip-location {
+  color: #aaa;
+  font-size: small;
+  opacity: 1;
+}
+
+#last-line {
+  margin-top: 5px;
+  display: block;
+  border-top: 1px solid #ddd;
+  padding-top: 11px;
+  padding-left: 150px
+}
+
+#last-line a {
+  margin-right: 27px;
 }
